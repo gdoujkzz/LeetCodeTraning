@@ -32,20 +32,24 @@ namespace 从排序数组中删除重复项 {
 
             #region 方法二
             {
-                //var nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
-                //var a = 0;
-                //for (var i = 1; i < nums.Length; i++){
-                //    if (nums[i] != nums[a]){
-                //        nums[++a] = nums[i]; //这里++a和a++是不一样的。切记这种有赋值操作的。
-                //    }
-                //}
-                //Console.WriteLine(a+1);
+                Stopwatch sw=new Stopwatch();
+                sw.Start();
+                var nums = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+                var a = 0;
+                for (var i = 1; i < nums.Length; i++) {
+                    if (nums[i] != nums[a]) {
+                        nums[++a] = nums[i]; //这里++a和a++是不一样的。切记这种有赋值操作的。
+                    }
+                }
+                sw.Stop();
+                Console.WriteLine(sw.Elapsed.TotalMilliseconds);
+                Console.WriteLine(a + 1);
             }
             //double t1 = GetRuningTime(Method1);
             //double t2 = GetRuningTime(Method2);
             //数组去重复，先排序，排好序之后，再用快慢指针。
-            Console.WriteLine(GetRuningTime(Method1));
-            Console.WriteLine(GetRuningTime(Method1));
+            //Console.WriteLine(GetRuningTime(Method1));
+            //Console.WriteLine(GetRuningTime(Method1));
             #endregion
             //这个会占用额外的空间，并且还不是O(1)
             Console.ReadKey();

@@ -1,0 +1,6 @@
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\bin\Debug\旋转数组.exe.config
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\bin\Debug\旋转数组.exe
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\bin\Debug\旋转数组.pdb
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\obj\Debug\旋转数组.csprojResolveAssemblyReference.cache
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\obj\Debug\旋转数组.exe
+D:\PersonProje\LeetCodeTraning\LeetCodeTraning\旋转数组\obj\Debug\旋转数组.pdb
